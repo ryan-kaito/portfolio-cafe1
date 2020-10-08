@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="images/icon-16x16.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/js-style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>portfolio_cafe_hitotoki</title>
+</head>
+<body>
+  <header class="">
+    <div class="header-container">
+      <a href="news.html" class="nav-btn">NEWS</a>
+      <a href="menu.html" class="nav-btn">MENU</a>
+      <a href="about.html" class="nav-btn">ABOUT</a>
+      <a href="#" class="nav-btn">CONTACT</a>
+    </div>
+  </header>
+
+  <div class="mobile-header">
+    <span class="fas fa-bars menu-nav-btn"></span>
+  </div>
+
+  <div class="nav-modal-wrapper">
+    <div class="nav-modal-back"></div>
+    <div class="nav-modal">
+      <div class="close-box">
+        <span class="fas fa-times close-btn"></span>
+      </div>
+      <div class="nav-modal-box">
+        <a href="index.html" class="nav-modal-btn">TOP</a>
+        <a href="news.html" class="nav-modal-btn">NEWS</a>
+        <a href="menu.html" class="nav-modal-btn">MENU</a>
+        <a href="about.html" class="nav-modal-btn">ABOUT</a>
+        <a href="contact.html" class="nav-modal-btn">CONTACT</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="home-link-box">
+    <div class="home-link">
+      <a href="index.html" class="home-link-btn"><img src="images/hitotoki logo.svg" alt="ホームリンクロゴ"></a>
+    </div>
+  </div>
+
+  <div class="main-content-wrapper">
+    <div class="main-content-container">
+      <div class="p-title">
+        <h2 class="page-title">ご案内</h2>
+      </div>
+
+      <div class="menu-time-box content-box">
+        <div class="content-box-container">
+          <div class="content-box-title">
+            <h3 class="main-title">時と処</h3>
+          </div>
+          <div class="box-contents">
+            <div class="box-content-wrapper" id="open-time">
+              <div class="txt-box">
+                <p class="menu-title">9:00 - 22:00</p>
+                <p class="menu-title">飲み物・甘味のラストオーダーは21:30です。</p>
+                <p class="menu-title">日曜・祝日・年末年始の12/27-1/3はお休みです。</p>
+              </div>
+              <div class="img-box">
+                <img src="images/takeout.jpg" alt="コーヒーの写真">
+              </div>
+            </div>
+            <div class="box-content-wrapper" id="place-map">
+              <div class="txt-box  order2">
+                <p class="menu-title">〒○○○-○○○○</p>
+                <p class="menu-title">東京都渋谷区渋谷○○町 0-00-00</p>
+                <p class="menu-title">一刻ビル1階 </p>
+              </div>
+              <div class="place-map-box order1">
+                <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.769987216773!2d139.69944711519994!3d35.65803823885113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1599571920237!5m2!1sja!2sjp" width="100%" height="400" frameborder="0" style="border:0; border-radius: 8px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <div class="menu-contact-box content-box"  id="contact-sec">
+        <div class="content-box-container">
+          <div class="content-box-title">
+            <h3 class="main-title">お問い合わせ</h3>
+          </div>
+          <div class="box-contents">
+            <div class="box-content-wrapper" id="contact">
+              <div class="eandt-box">
+                <div class="tell-box">
+                  <div class="tell-icon-box">
+                    <img src="images/tell-icon.svg" alt="電話アイコン" class="tell-icon">
+                  </div>
+                  <div class="tell-number-box">
+                    <a href="tel:00000000000" class="tell-number">000-0000-0000</a>
+                    <p class="txt-content">当店は指定の席のないスタンディングスタイルのため、お席のご予約は承っておりません。</p>
+                  </div>
+                </div>
+                <div class="email-box">
+                  <div class="email-img"><img src="images/email-icon.svg" alt="メールアイコン" class="email-icon"></div>
+                  <div class="form-box">
+                    <form action="thank-you.html" method="POST" class="contact-form">
+                      <p class="txt-content">お名前</p>
+                      <input type="text" name="name">
+                      <p class="txt-content">e-mailアドレス</p>
+                      <input type="email" name="email">
+                      <p class="txt-content">メッセージ</p>
+                      <textarea name="message" id="message-box" cols="30" rows="10"></textarea>
+                      <div class="submit-box">
+                        <input type="submit" value="送信" class="submit-btn">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="img-box">
+                <img src="images/inside3.jpg" alt="店内写真">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="sns-links">
+      <a href="thank-you.html" class="sns-icon"><span class="fab fa-twitter fa-2x"></span></a>
+      <a href="thank-you.html" class="sns-icon"><span class="fab fa-facebook fa-2x"></span></a>
+      <a href="thank-you.html" class="sns-icon"><span class="fab fa-youtube fa-2x"></span></a>
+    </div>
+    <div class="footer-bar">
+      <p class="footer-chara">&copy; 2020 KAITO-FUJITA</p>
+    </div>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
