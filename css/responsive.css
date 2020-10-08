@@ -1,0 +1,593 @@
+@media screen and (max-width:480px) { 
+  /* for smartphone portrait*/
+
+  /* 共通 */
+  .main-title{
+    font-size: 14px;
+  }
+  .page-title{
+    font-size: 26px;
+  }
+  .menu-title{
+    font-size: 12px;
+  }
+  .txt-content{
+    font-size: 10px;
+    line-height: 18px;
+  }
+  header{
+    display: none;
+  }
+  footer{
+    margin-top: 80px;
+  }
+  .mobile-header{
+    display: block;
+  }
+  .home-link-box{
+    display: none;
+  }
+  .nav-modal{
+    width: 70%;
+  }
+  .menu-nav-btn{
+    margin-right: 3%;
+  }
+  .main-content-container{
+    width: 85%;
+  }
+  .content-box{
+    margin-top: 6%;
+  }
+
+  /* home */
+  .backimage {
+    height: 200px;
+    object-position: 50% 20%;
+  }
+  .btn-txt{
+    font-size: 18px;
+    color: #fff;
+  }
+  .btn-txt-news,.btn-txt-menu, .btn-txt-contact, .btn-txt-about, .btn-txt-access{
+    position: absolute;
+    top: 57%;
+    left: 5%;
+  }
+  .main-wrapper-container{
+    width: 85%;
+  }
+  .main1{
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .main1-content{
+    width: 100%;
+  }
+  .main2{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 8%;
+  }
+  .main3{
+    margin-bottom: 10%;
+  }
+  .main3 .main-title{ 
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+  .main4{
+    margin-bottom: 7%;
+  }
+  .main4 .movie-box{
+    width: 100%;
+  }
+  .main4 .movie-box .movie{
+    height: 200px;
+  }
+  .main5-container-box{
+    width: 100%;
+  }
+  .sns-links{
+    width: 34%;
+  }
+  .sns-icon .fa-2x{
+    font-size: 1.4em;
+  }
+  .footer-chara{
+    font-size: 10px;
+  }
+
+  /* news */
+  .new-menu{
+    display: block;
+    margin-top: 8%;
+  }
+  .new-menu .menu-title{
+    margin-top: 2.5%;
+  }
+  .new-menu1{
+    margin-top: 5%;
+  }
+  .new-menu1, .new-menu2, .new-menu3{
+    width: 100%;
+    margin-bottom: 12%;
+  }
+  .new-menu img{
+    height: 150px;
+  }
+  .no-smoking-img{
+    width: 100%;
+  }
+  .no-smoking-txt{
+    width: 100%;
+  }
+
+  /* menu */
+  .content-box-title h3{
+    margin-bottom: 8%;
+  }
+  .menu-contents{
+    width: 100%;
+  }
+  .menu-img{
+    width: 100%;
+    margin: 0;
+  }
+  .menu-border{
+    width: 12%;
+  }
+  .price{
+    font-size: 12px;
+  }
+  .yen{
+    font-size: 10px;
+  }
+  .coffee-menus{
+    display: block;
+  }
+  .coffee-menu{
+    height: 320px;
+  }
+  .coffee-img{
+    height: 180px;
+    margin-top: 5%;
+  }
+  .tea-menus{
+    display: block;
+  }
+  .tea-menu{
+    height: 320px;
+  }
+  .tea-img1, .tea-img2{
+    height: 180px;
+  }
+  .sweets-menus{
+    display: block;
+  }
+  .sweets-menu{
+    height: 260px;
+  }
+  .sweets-img1, .sweets-img2{
+    height: 180px;
+  }
+  .alchole-menus{
+    display: block;
+  }
+  .alchole-menu{
+    height: 340px;
+  }
+  .alchole-img1, .alchole-img2{
+    height: 180px;
+  }
+  
+  /* about */
+  .concept-menus{
+    display: block;
+  }
+  .concept-menu{
+    margin-bottom: 5%;
+  }
+  .logo-title{
+    display: none;
+  }
+  .hitotoki-concept h3{
+    font-size: 12px;
+  }
+  .concept-img{
+    height: 180px;
+  }
+  #system-inside, #system-alchole{
+    display: block;
+  }
+  #system-inside .content-image-box{
+    width: 100%;
+  }
+  #system-inside .menu-title{
+    text-align: center;
+  }
+  #system-inside .content-txt-box{
+    width: 100%;
+    padding: 0;
+  }
+  #system-alchole{
+    margin-top: 12%;
+  }
+  #system-alchole .content-image-box{
+    width: 100%;
+  }
+  #system-alchole .menu-title{
+    text-align: center;
+  }
+  #system-alchole .content-txt-box{
+    width: 100%;
+    padding: 0;
+  }
+  #system-alchole .content-link-box{
+    text-align: center;
+  }
+  #system-ingredient{
+    display: block;
+  }
+  #system-ingredient .content-image-box, #system-ingredient .content-txt-box{
+    width: 100%;
+  }
+  #system-ingredient .menu-title{
+    text-align: center;
+  }
+  #system-cooking{
+    display: block;
+  }
+   #system-cooking .content-image-box,  #system-cooking .content-txt-box{
+    width: 100%;
+  }
+  #system-cooking .menu-title{
+    text-align: center;
+  }
+
+  /* contact */
+  #open-time{
+    display: block;
+  }
+  #open-time .txt-box{
+    width: 100%;
+    height: 120px;
+  }
+  #open-time .menu-title{
+    width: 100%;
+  }
+  #open-time .img-box{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2%;
+  }
+  #place-map{
+    display: block;
+  }
+  #place-map .txt-box{
+    width: 100%;
+  }
+  #place-map .place-map-box{
+    width: 100%;
+  }
+  #place-map .map-frame{
+    height: 180px;
+  }
+  #contact{
+    display: block;
+  }
+  #contact .eandt-box{
+    width: 100%;
+  }
+  #contact .img-box{
+    display: none;
+  }
+  /* thank-you */
+  .ty-img{
+    width: 240px;
+    height: 160px;
+  }
+  .ty-txts{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:767px) { 
+  /* for tablet portrait*/
+  /* for smartphone landscape */
+ 
+  /* 共通 */
+  .main-title{
+    font-size: 14px;
+  }
+  .page-title{
+    font-size: 26px;
+  }
+  .menu-title{
+    font-size: 12px;
+  }
+  .txt-content{
+    font-size: 10px;
+    line-height: 18px;
+  }
+  header{
+    display: none;
+  }
+  footer{
+    margin-top: 80px;
+  }
+  .mobile-header{
+    display: block;
+  }
+  /* home */
+  .backimage {
+    height: 300px;
+    object-position: 50% 20%;
+  }
+  .btn-txt{
+    font-size: 18px;
+    color: #fff;
+  }
+  .btn-txt-news,.btn-txt-menu, .btn-txt-contact, .btn-txt-about, .btn-txt-access{
+    position: absolute;
+    top: 57%;
+    left: 5%;
+  }
+  .main1{
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .main1-content{
+    width: 100%;
+  }
+  .main2{
+    margin-bottom: 8%;
+  }
+  .main3{
+    margin-bottom: 10%;
+  }
+  .main3 .main-title{ 
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+  .main4{
+    margin-bottom: 7%;
+  }
+  .main4 .movie-box{
+    width: 100%;
+  }
+  .main4 .movie-box .movie{
+    height: 300px;
+  }
+  .main5-container-box{
+    width: 100%;
+  }
+  .sns-links{
+    width: 29%;
+  }
+  .sns-icon .fa-2x{
+    font-size: 1.6em;
+  }
+  .footer-chara{
+    font-size: 10px;
+  }
+
+  /* news */
+  .main-content-container{
+    width: 83%;
+  }
+  .home-link-box{
+    display: none;
+  }
+  .new-menu1, .new-menu2, .new-menu3{
+    width: 30%;
+  }
+  .new-menu .txt-content{
+    margin-top: 4%;
+  }
+  .new-menu img{
+    height: 130px;
+  }
+
+  /* menu */
+  .checkatthere{
+    margin-left: 3.8%;
+  }
+  .menu-coffee-box .menu-border,.menu-tea-box .menu-border,.menu-sweets-box .menu-border,.menu-alchole-box .menu-border{
+    margin-left: 2%;
+    width: 8%;
+  }
+  .yen{
+    font-size: 7px;
+    padding-top: 1.7%;
+  }
+  .price{
+    font-size: 12px;
+  }
+  .coffee-img{
+    height: 300px;
+  }
+  .tea-img1, .tea-img2{
+    height: 150px;
+  }
+  .sweets-img1, .sweets-img2{
+    height: 150px;
+  }
+  .alchole-img1, .alchole-img2{
+    height: 150px;
+  }
+  .alchole-img1{
+    object-position: 0 15%;
+  }
+  .alchole-img2{
+    object-position: 0 50%;
+  }
+  .caution-icon{
+    line-height: 13px;
+  }
+  .caution-txt{
+    font-size: 8px;
+    line-height: 13px;
+  }
+
+  /* about */
+  .concept-menu{
+    height: 250px;
+  }
+  .concept-img{
+    height: 100%;
+  }
+  .hitotoki-box{
+    margin-bottom: 10%;
+  }
+  .logo-title{
+    width: 80%;
+  }
+  .hitotoki-concept h3{
+    font-size: 14px;
+  }
+  .hitotoki-concept .txt-content{
+    width: 90%;
+  }
+
+  /* contact */
+  #open-time{
+    display: block;
+  }
+  #open-time .txt-box{
+    width: 100%;
+    height: 150px;
+  }
+  #open-time .menu-title{
+    width: 100%;
+  }
+  #open-time .img-box{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2%;
+  }
+  #place-map{
+    display: block;
+  }
+  #place-map .txt-box{
+    width: 100%;
+  }
+  #place-map .place-map-box{
+    width: 100%;
+  }
+  #contact{
+    display: block;
+  }
+  #contact .eandt-box, #contact .img-box{
+    width: 100%;
+  }
+  #contact .img-box img{
+    height: 100px;
+  }
+  /* thank-you */
+  .ty-img{
+    width: 240px;
+    height: 160px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) { 
+  /* for tablet landscape*/
+
+  /* 共通 */
+  .main-title{
+    font-size: 19px;
+  }
+  .page-title{
+    font-size: 32px;
+  }
+  .menu-title{
+    font-size: 14px;
+  }
+  .txt-content{
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .nav-btn{
+    font-size: 15px;
+  }
+  footer{
+    margin-top: 10%;
+  }
+  /* home */
+  .backimage {
+    height: 490px;
+  }
+  .btn-txt{
+    font-size: 22px;
+    color: #fff;
+  }
+  .btn-txt-news,.btn-txt-menu, .btn-txt-contact, .btn-txt-about, .btn-txt-access{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+  }
+
+  /* news */
+  .home-link-btn{
+    width: 11%;
+  }
+  .new-menu img{
+    height: 200px;
+  }
+  .new-menu .txt-content{
+    display: block;
+    height: 230px;
+  }
+
+  /* menu */
+  .checkatthere{
+    margin-left: 3.8%;
+  }
+  .menu-coffee-box .menu-border,.menu-tea-box .menu-border,.menu-sweets-box .menu-border,.menu-alchole-box .menu-border{
+    margin-left: 2%;
+    width: 16%;
+  }
+  .yen{
+    font-size: 9px;
+  }
+  .price{
+    font-size: 14px;
+    width: 60px;
+  }
+
+  /* about */
+  .hitotoki-concept h3{
+    font-size: 14px;
+  }
+
+  /* contact */
+  #open-time .txt-box, #open-time .img-box{
+    height: 230px;
+  }
+  #open-time .txt-box{
+    padding-top: 5%;
+  }
+  #open-time .menu-title{
+    margin-bottom: 5%;
+  }
+  #open-time .img-box img{
+    height: 230px;
+    object-position: 100% 0;
+  }
+  #place-map iframe{
+    height: 250px;
+  }
+
+    /* thank-you */
+  .ty-img{
+    width: 480px;
+    height: 320px;
+  }
+  
+  
+}
