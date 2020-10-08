@@ -1,0 +1,19 @@
+/* フェードイン */
+.firstfadein{
+  display: none;
+}
+.secondfadein{
+  display: none;
+}
+
+/* スクロールフェードイン */
+.fadein {
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
